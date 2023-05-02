@@ -1,0 +1,412 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/seo03/DL23/blob/main/Midterm/variable%2Bcalculator\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "---\n",
+        "# 📗 Topic [2]: Coding basic #2\n",
+        "---\n",
+        "Keywords:\n",
+        "\n",
+        "+ variables\n",
+        "+ operators\n",
+        "+ data types: list and dictionary"
+      ],
+      "metadata": {
+        "id": "k4A5_MYHpcNQ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Your github IDs [here](https://docs.google.com/spreadsheets/d/1rBlWeffj5RaBQS-lcv46r3Xe-JVF8PpwDngsuQhLKCc/edit?usp=sharing)"
+      ],
+      "metadata": {
+        "id": "mUVgzk50XMkt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## [1] Variables"
+      ],
+      "metadata": {
+        "id": "93gQaEo1RX63"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "+ **A variable** is a named storage location that holds a value.\n",
+        "+ Variables can be used **to store values** such as numbers, strings, lists, or other data types. \n",
+        "+ The value of a variable can change throughout the execution of a program. \n",
+        "+ To declare a variable in Python, you need to assign a value to it using the **equal (=) sign.**"
+      ],
+      "metadata": {
+        "id": "jJT4hD1teuJr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10\n",
+        "y = \"Hello, class!\"\n",
+        "z = [1, 2, 3]"
+      ],
+      "metadata": {
+        "id": "Xes87bY2X45M"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "↗️ In the above example, 'x' is assigned the value of 10, 'y' is assigned the value of \"Hello, World!\", and 'z' is assigned the value of [1, 2, 3]."
+      ],
+      "metadata": {
+        "id": "ulw6QsP5ZiKp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# We can assign a link or a function\n",
+        "import pandas as pd\n",
+        "url = \"https://github.com/MK316/Spring2023/raw/main/data/att_sample.csv\"\n",
+        "data = pd.read_csv(url)\n",
+        "data"
+      ],
+      "metadata": {
+        "id": "_7bvpJt2aQmg"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Commenting '#'\n",
+        "\n",
+        "- In Python, the # symbol is used to indicate a comment. A comment is a line of text in a code that is ignored by the Python interpreter and is used to provide explanations or notes for the reader of the code."
+      ],
+      "metadata": {
+        "id": "xZv9R8I8ZWvt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# This is a comment in Python\n",
+        "x = 10 # this is also a comment"
+      ],
+      "metadata": {
+        "id": "7UJmbmmTaFx9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x1 = x * 10\n",
+        "x2 = x + 5\n",
+        "\n",
+        "print(x1, x2)"
+      ],
+      "metadata": {
+        "id": "Ivc72tB0X_TS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "y1 = y + \"Welcome to the class.\"\n",
+        "z1 = z + [3,2,1]\n",
+        " \n",
+        "print(y1, z1)"
+      ],
+      "metadata": {
+        "id": "cxePqv-52RU0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "GM5mv1G3X_0J"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## [2] Operators\n",
+        "\n",
+        "* Symbols that perform operations on values and variables. \n",
+        "* They are used to perform arithmetic and logical operations, and they can also be used to manipulate and compare values. "
+      ],
+      "metadata": {
+        "id": "5JgA2T2dRft5"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. Arithmetic Operators: +, -, *, /, %, ** (for exponentiation)"
+      ],
+      "metadata": {
+        "id": "NJBgu_O4bczL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 2; y = 5\n",
+        "\n",
+        "a1 = x + y\n",
+        "a2 = x - y\n",
+        "a3 = x * y\n",
+        "a4 = x / y\n",
+        "a5 = x ** y"
+      ],
+      "metadata": {
+        "id": "dXT3pIzobUHU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(a1, a2, a3, a4, a5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_m3JBsOKd6Uv",
+        "outputId": "37ea21a9-145e-4bb1-d4ef-1b51c0ee7440"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7 -3 10 0.4 32\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 🌱 Demo 🔢 Calculator"
+      ],
+      "metadata": {
+        "id": "Cx1NyWUAybc8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#@markdown 🔄 [1] Making functions (sample): tts(text)\n",
+        "%%capture\n",
+        "!pip install gTTS\n",
+        "from gtts import gTTS\n",
+        "from IPython.display import Audio\n",
+        "\n",
+        "def tts(text):\n",
+        "  gtts_object = gTTS(text,lang = \"en\", slow = True) \n",
+        "  gtts_object.save(\"myaudio.mp3\")\n",
+        "  return Audio(\"myaudio.mp3\")"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "yz1enZ9s4kSR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# This function adds two numbers\n",
+        "def add(x, y):\n",
+        "    return x + y\n",
+        "\n",
+        "# This function subtracts two numbers\n",
+        "def subtract(x, y):\n",
+        "    return x - y\n",
+        "\n",
+        "# This function multiplies two numbers\n",
+        "def multiply(x, y):\n",
+        "    return x * y\n",
+        "\n",
+        "# This function divides two numbers\n",
+        "def divide(x, y):\n",
+        "    return x / y\n"
+      ],
+      "metadata": {
+        "id": "Dod3_zgYdsWe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Test\n",
+        "\n",
+        "add(2,3)\n",
+        "# subtract(3,2)\n",
+        "# multiply(2,3)\n",
+        "# divide(3,2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IoHh-U2GBsqH",
+        "outputId": "10510e9c-1408-4824-aad6-a6c9a96a0ea2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Using dropbox format"
+      ],
+      "metadata": {
+        "id": "eOluPoNqCCE1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "func = \"subtract\" #@param = [\"add\",\"subtract\",\"multiply\",\"divide\"]\n",
+        "digits = input(\"Type two numbers: (e.g., 3,4)\")\n",
+        "digitsplit = digits.split(',')\n",
+        "d1 = int(digitsplit[0])\n",
+        "d2 = int(digitsplit[1])\n",
+        "\n",
+        "if func == \"add\":\n",
+        "  result = add(d1,d2)\n",
+        "  text = \"The addition of %d and %d equals %d.\"%(d1,d2,result)\n",
+        "elif func == \"subtract\":\n",
+        "  result = subtract(d1,d2)\n",
+        "  text = \"If you subtract %d from %d, you get %d.\"%(d2,d1,result)\n",
+        "elif func == \"divide\":\n",
+        "  result = divide(d1,d2)\n",
+        "  text = \"When you divide %d by %d, you get %d.\"%(d1,d2,result)\n",
+        "elif func == \"multiply\":\n",
+        "  result = multiply(d1,d2)\n",
+        "  text = \"%d multiplied by %d is %d.\"%(d1,d2,result)\n",
+        "\n",
+        "print(text)\n",
+        "tts(text)\n",
+        "Audio(\"myaudio.mp3\")"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "FT47bY6qBo3k"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "More operators: <br>\n",
+        "* Comparison Operators: ==, !=, <, >, <=, >= <br>\n",
+        "* Assignment Operators: =, +=, -=, *=, /=, %= <br>\n",
+        "* Logical Operators: and, or, not <br>\n",
+        "* Identity Operators: is, is not <br>\n",
+        "* Membership Operators: in, not in "
+      ],
+      "metadata": {
+        "id": "sfubu24UbqjH"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# ⏰ Todo: "
+      ],
+      "metadata": {
+        "id": "9D7U7633g0S_"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Using Colab, create a code page (DL_Assign01.ipynb) and post it on your Github account under a repository named DL.\n",
+        "\n",
+        "\n",
+        "1. Create a repository named \"DL\"\n",
+        "2. Open DL_Assign01.ipynb on colab: 💾**Goto [Assign#1](https://github.com/MK316/Spring2023/blob/main/DL/DL_Assign01.ipynb)**\n",
+        "3. Complete code cells following the directions\n",
+        "4. Save a copy in Github (File > Save a copy in Github)"
+      ],
+      "metadata": {
+        "id": "mSpge9tenu6I"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        "---\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "3cZjH9xIiN4_"
+      }
+    }
+  ]
+}
