@@ -1,0 +1,118 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBmksSEBF1ca5GK+lBDqgX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/seo03/DL23/blob/main/Memo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 디지털리터러시와영어교육\n",
+        "\n",
+        "시험 - 변수명 숫자로 시작하면 안됨!!!!!! ⭐️\n",
+        "\n",
+        "#... => 글자 크게\n",
+        "+... => •\n",
+        "\n",
+        "Install = !pip install ____\n",
+        "\n",
+        "함수 정의= def ____ \n",
+        "\n",
+        "정의의 내용은 다음 줄에 indent\n",
+        "\n",
+        "따옴표 = 텍스트 인식 (‘ ‘ “ ”)\n",
+        "\n",
+        "( ) = 함수\n",
+        "\n",
+        "bulit in = 내장된 함수\n",
+        "\n",
+        "Colab 저장 = 파일 들어가서 Github 사본 저장\n",
+        "\n",
+        "Comment # ctrl + /\n",
+        "작동 ctrl + 엔터\n",
+        "print (변수) \n",
+        "type (변수)\n",
+        "\n",
+        "ChatGPT = Generative Pre-trained Transformer ⭐️\n",
+        "\n",
+        "APIs = Application Programming Interfaces ⭐️\n",
+        "\n",
+        "type( ) => 숫자 타입 알려줌... \n",
+        "\n",
+        "[ ] => List (Python은 0부터 셈)\n",
+        "\n",
+        "str( ) => “ “ (string)\n",
+        "int( ) => 숫자\n",
+        "[ ] => 괄호 안이 숫자가 될 수도 있고 str이 될 수도 있음\n",
+        "list[x숫자] => 몇 번째까지 보여줌... 0부터 셈\n",
+        "\n",
+        "range( ) => 다 보여줘라\n",
+        "왼쪽은 들어가고 오른쪽은 안 들어감\n",
+        "\n",
+        "{ } => Dictionary datatype\n",
+        "\n",
+        "Input( ) => 팝업\n",
+        "\n",
+        "*=> 곱하기\n",
+        "\n",
+        "import => 불러오기\n",
+        "\n",
+        "input => 사용자가 입력\n",
+        "\n",
+        "input( ) => 기본적으로 string\n",
+        "\n",
+        "sentence.split( ) => 문장 분할\n",
+        "\n",
+        "uppercase_text = text.upper( )\n",
+        "=> 대문자로 바꿈 \n",
+        "lowercase_text = text.lower( )\n",
+        "=> 소문자로 바꿈\n",
+        "\n",
+        "String indexing\n",
+        "print(quote[ ]) => 몇 번째 글자 나옴 (0부터 셈)\n",
+        "맨끝은 -1 ... 빈칸이나 온점도 포함해서 셈\n",
+        "\n",
+        "숫자:숫자 => 왼쪽은 해당 숫자 포함\n",
+        "오른쪽은 해당 숫자 포함 X\n",
+        "비워두면 끝까지 셈\n",
+        "\n",
+        ":: 숫자 => reverse\n",
+        "\n",
+        "' ' join( ) => 다시 문장으로 붙임\n",
+        "\n",
+        "len( ) => 길이\n",
+        "\n",
+        "for loop => 반복\n",
+        "for num in numbers\n",
+        "** => n의 제곱\n",
+        "squared[ ]\n",
+        "squared.append( ) => 괄호 안에 결과값 넣음\n"
+      ],
+      "metadata": {
+        "id": "chry9K6Tawzp"
+      }
+    }
+  ]
+}
